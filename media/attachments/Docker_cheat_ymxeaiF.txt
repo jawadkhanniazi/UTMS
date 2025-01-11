@@ -1,0 +1,30 @@
+get all containers
+docker ps -a
+
+logs 
+docker logs container id/name
+docker logs -f conatuner id/name (continuos logs)
+
+stop
+docker stop name/id
+
+delete container/image
+docker rm id/name
+docker rmi id/name
+
+build and run 
+docker build -t object-detection-celery-worker -f Dockerfile-celery .
+docker run --env-file .env object-detection-celery-worker
+docker run -p 0.0.0.0:8001:8001 --env-file .env nimar-backend
+docker run --redis-db 192.168.82y83
+
+docker run -d --env-file .env object-detection-celery-worker
+
+
+
+tmux a (recent atatch)
+tumx (start a new instance)
+ctrl+b  (commad mode)
+d (deattach)
+
+.env 
