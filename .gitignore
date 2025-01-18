@@ -1,0 +1,101 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Add this line to your .gitignore
+stats/__pycache__/__init__.cpython-312.pyc
+__init__.cpython-312.pyc
+
+# Local development settings
+local_settings.py
+
+__pycache__
+
+# Secret key
+*.secret
+
+# Database
+db.sqlite3
+
+# Media files
+media/
+
+# Static files
+static/
+staticfiles/
+# Virtual environment
+venv/
+
+# Logs
+*.log
+
+# Windows directories
+Thumbs.db
+Desktop.ini
+
+# Windows image file caches
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code settings
+.vscode/
+
+# Python-specific
+*.pyc
+
+# Compiled C extensions
+*.pyd
+*.pyo
+*.dll
+
+# Python Installer
+*.msi
+*.tar.gz
+
+# pipenv
+Pipfile.lock
+
+# mypy
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Custom entries
+*.bak
+*.dat
+*.dir
+Dockerfile
+
+*.pot
+
+
+
+/RecordsManager/helpers.py
+converter.py
+build/*
+
+
+staticfiles/*
+
+aijobs/handshake.py
+
+converted.py
+forsight/settings.py
+
+## also add celery and celery beat files in the .gitignore
+celerybeat-schedule
+celerybeat.pid
+celerybeat-schedule.db
+celerybeat-schedule.db-journal
+celerybeat.pid
+celerybeat.pid.lock
+celerybeat.pid.lock.db
+celerybeat.pid.lock.db-journal
